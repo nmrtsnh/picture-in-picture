@@ -20,8 +20,22 @@ body {
 button {
   font-family: "Delicious Handrawn", sans-serif;
   font-size: 48px;
-  background-color: rgb(6, 87, 20);
-  color: white;
-  padding: 20px;
+  background-color: rgb(230, 134, 90);
+  /* background-color: rgb(6, 87, 20); */
+  color: black;
+  padding: 10px 30px;
   letter-spacing: 4px;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  text-shadow: 0 2px 5px white;
+}
+
+button:hover {
+  background-color: rgb(167, 212, 223);
+}
+
+button:active {
+  transform: translateY(3px);
 }
